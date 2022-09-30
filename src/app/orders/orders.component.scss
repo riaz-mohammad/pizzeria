@@ -1,0 +1,55 @@
+ :host {
+   display: flex;
+   box-sizing: border-box;
+   height: 100%;
+   width: 100%;
+   color: white;
+   flex-direction: column;
+   justify-content: flex-end;
+ }
+
+ orders-container {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px 30px 0px 0px;
+   height: 90%;
+   overflow: hidden;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+       rgba(73, 80, 87, 10));
+ }
+
+ .background {
+   z-index: 100;
+   border-radius: 10px;
+   position: absolute;
+   right: -110px;
+   top: -60px;
+   width: 400px;
+   transform: rotate(-92deg);
+ }
+
+ app-arrow {
+   position: absolute;
+   top: 5%;
+   left: 10%;
+ }
+
+ app-button {
+   background: white;
+   width: 50%;
+   height: 38px;
+   color: black;
+   border-radius: 20px;
+   position: absolute;
+   bottom: 8%;
+ }
+
+ orders {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   align-items: center;
+ }
