@@ -1,5 +1,6 @@
-# pizzeria
-An interactive menu for a pizzeria 
+# Pizzera
+An interactive menu for a pizzeria with mobile approach
+built with Angular 
 
 
 
